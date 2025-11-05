@@ -105,17 +105,13 @@ if open.upper() == "START":
 
         else:
             print(f"BOB_AI: I'm sorry, {name}, I can currently only help with math. How can I assist you with that?")
-            # You can expand this else block to handle more topics, e.g., weather, time, etc.
-            # For example:
-            # elif user_input.lower() in {"weather"}:
-            #     print("BOB_AI: I don't have real-time weather data, but it's sunny in my digital world!")
-            # Add more elif conditions as needed.
-
+            
         print("BOB_AI:", reply)
 
 else:
     print("Program closed.")
     sys.exit()
+
 
 
 
