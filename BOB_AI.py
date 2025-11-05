@@ -50,11 +50,12 @@ if open.upper() == "START":
 
         reply = None
 
-        if any(word in user_asn for word in greetings):
-            reply = random.choice(greet_replies)
-        
-        elif any(word in user_asn for word in love):
+        if any(mahal in user_asn for mahal in love):
             reply = random.choice(love_replies)
+            
+        
+        elif any(word in user_asn for word in greetings):
+            reply = random.choice(greet_replies)
 
 
         
@@ -79,8 +80,8 @@ if open.upper() == "START":
                     operation = input("Enter operation (+, -, x, /): ")
                     if operation in {"+","-", "x", "/"}:
                         try:
-                            num1 = float(input("Enter the first number -->" ))
-                            num2 = float(input("Enter the second number -->" ))
+                            num1 = float(input("Enter the first number --> "))
+                            num2 = float(input("Enter the second number --> "))
                         except ValueError:
                             print("Invalid input. Please Enter Numeric Value")
                     
