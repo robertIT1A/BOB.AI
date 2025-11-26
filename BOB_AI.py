@@ -3,6 +3,8 @@ import sys
 import time
 import random
 
+
+
 open = input("Type START to start talking to our friendly AI chat bot named BOB_AI, Type QUIT to close the program >> ")
 
 greetings = ["hi", "hello", "hey", "yo", "sup"]
@@ -111,6 +113,7 @@ if open.upper() == "START":
 else:
     print("Program closed.")
     sys.exit()
+
 
 
 
