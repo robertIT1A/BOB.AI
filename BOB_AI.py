@@ -4,7 +4,7 @@ import time
 import random
 
 
-
+# run
 
 open = input("Type START to start talking to our friendly AI chat bot named BOB_AI, Type QUIT to close the program >> ")
 
@@ -114,6 +114,7 @@ if open.upper() == "START":
 else:
     print("Program closed.")
     sys.exit()
+
 
 
 
