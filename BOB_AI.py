@@ -5,7 +5,7 @@ import random
 
 
 
-# run di na natapos
+# run di na natapos , di padin tapos
 
 
 open = input("Type START to start talking to our friendly AI chat bot named BOB_AI, Type QUIT to close the program >> ")
