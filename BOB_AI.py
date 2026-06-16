@@ -4,7 +4,6 @@ import time
 import random
 
 
-
 # run di na natapos , di padin tapos, tinamad na ako taposin
 
 
